@@ -1,0 +1,49 @@
+body{
+
+
+}
+
+.content{
+   display: flex;
+   flex-direction: column; 
+   width: 350px;
+   background-color: gainsboro;
+
+}
+
+/*head de calculatrice*/
+.head{
+  background-color:rgb(189, 205, 216);
+  height: 50px;
+}
+
+/*resultate et operation*/
+.ouput{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  justify-content: center;
+}
+/*les input result et operation*/
+#Input,#Output{
+  width:96% ;
+  font-size: 20px;
+}
+
+/*style de tous button*/
+.tous_boutton{
+  background-color: gainsboro;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+
+}
+
+/*style de chaque button*/
+.tous_boutton button{
+  width: 80px;
+  height:50px ;
+  font-size: 20px;
+  margin-top: 5px;
+  box-shadow: 0 0 1px;
+}
