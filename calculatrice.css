@@ -7,32 +7,37 @@ body{
    display: flex;
    flex-direction: column; 
    width: 350px;
+   height: 79vh;
    background-color: gainsboro;
-
+   border-radius: 5px;
+   box-shadow: 0 0 4px;
 }
 
 /*head de calculatrice*/
 .head{
-  background-color:rgb(189, 205, 216);
-  height: 50px;
+  /*background-color: gainsboro;*/
+   height: 10vh;
 }
 
 /*resultate et operation*/
 .ouput{
   display: flex;
   flex-wrap: wrap;
-  height: 100px;
+  height: 22vh;
   justify-content: center;
 }
 /*les input result et operation*/
 #Input,#Output{
+  
   width:96% ;
   font-size: 20px;
 }
-
+#Input{
+  font-size: 26px;
+}
 /*style de tous button*/
 .tous_boutton{
-  background-color: gainsboro;
+  /*background-color: gainsboro;*/
  display: flex;
  flex-wrap: wrap;
  justify-content: space-evenly;
@@ -45,5 +50,15 @@ body{
   height:50px ;
   font-size: 20px;
   margin-top: 5px;
-  box-shadow: 0 0 1px;
+  box-shadow: 0 0 2px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.leschiffres{
+  background-color: white;
+}
+#egalee{
+  background-color: blue;
+  color: white;
 }
