@@ -13,31 +13,32 @@
       
      </div>
      <div class="ouput">
-       <input  id="resultat" type="text" value="" readonly>
-       <input  id="operation" type="text" placeholder="0" value="" readonly>
+        <input  id="Output" type="text" value="" readonly>
+        <input  id="Input" type="text" placeholder="0" value="" readonly>
+
      </div> 
 
     <div class="tous_boutton">
-        <button onclick="ButtonClick('%')">%</button>
-        <button onclick="">CE</button>
-        <button onclick="">C</button>
-        <button onclick="ButtonClick('/')">÷</button>
-        <button onclick="ButtonClick('7')">7</button>
-        <button onclick="ButtonClick('8')">8</button>
-        <button onclick="ButtonClick('9')">9</button>
-        <button onclick="ButtonClick('*')">x</button>
-        <button onclick="ButtonClick('4')">4</button>
-        <button onclick="ButtonClick('5')">5</button>
-        <button onclick="ButtonClick('6')">6</button>
-        <button onclick="ButtonClick('-')">-</button>
-        <button onclick="ButtonClick('1')">1</button>
-        <button onclick="ButtonClick('2')">2</button>
-        <button onclick="ButtonClick('3')">3</button>
-        <button onclick="ButtonClick('+')">+</button>
-        <button onclick="">+/-</button>
-        <button onclick="ButtonClick('0')">0</button>
-        <button onclick="ButtonClick('.')">,</button>
-        <button onclick="">=</button>
+        <button onclick="modulu()">%</button>
+        <button onclick="clearinput()">CE</button>
+        <button onclick="Cleartout()">C</button>
+        <button onclick="division()">÷</button>
+        <button class="leschiffres" onclick="ButtonClick('7')">7</button>
+        <button class="leschiffres"  onclick="ButtonClick('8')">8</button>
+        <button class="leschiffres" onclick="ButtonClick('9')">9</button>
+        <button onclick="multiplication()">x</button>
+        <button class="leschiffres" onclick="ButtonClick('4')">4</button>
+        <button class="leschiffres" onclick="ButtonClick('5')">5</button>
+        <button class="leschiffres" onclick="ButtonClick('6')">6</button>
+        <button onclick="soustraction()">-</button>
+        <button class="leschiffres" onclick="ButtonClick('1')">1</button>
+        <button class="leschiffres" onclick="ButtonClick('2')">2</button>
+        <button class="leschiffres"  onclick="ButtonClick('3')">3</button>
+        <button onclick="addition('+')">+</button>
+        <button class="leschiffres" onclick="negative()">+/-</button>
+        <button class="leschiffres" onclick="ButtonClick('0')">0</button>
+        <button class="leschiffres" onclick="virgule('.')">,</button>
+        <button id="egalee" onclick="egale()">=</button>
         
     </div>
 </div>
